@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/matchListFragment">
+    <fragment
+        android:id="@+id/matchListFragment"
+        android:name="dev.netomarin.bballscore.MatchListFragment"
+        android:label="BBall Score"
+        tools:layout="@layout/fragment_match_list">
+        <action
+            android:id="@+id/action_matchListFragment_to_matchScoreFragment"
+            app:destination="@id/matchScoreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/matchScoreFragment"
+        android:name="dev.netomarin.bballscore.MatchScoreFragment"
+        android:label="BBall Score"
+        tools:layout="@layout/fragment_match_score" />
+</navigation>

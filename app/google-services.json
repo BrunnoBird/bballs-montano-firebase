@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "658948353617",
+    "project_id": "bballscore-netomarindev",
+    "storage_bucket": "bballscore-netomarindev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658948353617:android:182deb6bf64528798a5270",
+        "android_client_info": {
+          "package_name": "dev.netomarin.bballscore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658948353617-4rj8ei84jv3tkv8gjdi62vserlf3gvnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.netomarin.bballscore",
+            "certificate_hash": "84dff876468b76eb9a6bf13fbc6658bb71062679"
+          }
+        },
+        {
+          "client_id": "658948353617-bmdp9l5m4i1pqujkg8meqfqdglnraaid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwhmEtQ_GyNNOgzjoijfgsBFipM7GrKCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658948353617-bmdp9l5m4i1pqujkg8meqfqdglnraaid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
